@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/hddl/code/cpp/Dlib_cpp/main.cpp
+iostream
+-
+fstream
+-
+vector
+-
+dlib/image_processing/frontal_face_detector.h
+-
+dlib/image_processing/shape_predictor.h
+-
+dlib/dnn/loss_abstract.h
+-
+dlib/image_io.h
+-
+dlib/opencv.h
+-
+dlib/string.h
+-
+dlib/clustering.h
+-
+opencv2/opencv.hpp
+-
+opencv2/imgcodecs.hpp
+-
+opencv2/highgui.hpp
+-
+
